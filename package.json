@@ -6,6 +6,7 @@
   "author": "igorlfs",
   "license": "MIT",
   "dependencies": {
+    "@cspell/dict-pt-br": "^2.1.4",
     "dotenv": "^16.0.3",
     "qrcode-terminal": "^0.12.0",
     "ts-node": "^10.9.1",

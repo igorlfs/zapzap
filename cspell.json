@@ -1,0 +1,12 @@
+{
+  "version": "0.2",
+  "language": "en,pt,pt-BR",
+  "dictionaries": ["project"],
+  "dictionaryDefinitions": [
+    {
+      "name": "project",
+      "path": "./words.txt",
+      "addWords": true
+    }
+  ]
+}
