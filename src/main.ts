@@ -3,6 +3,8 @@ import pkg from "whatsapp-web.js";
 const { Client, LocalAuth } = pkg;
 import { interact } from "./interactions";
 
+require("dotenv").config();
+
 const client = new Client({
     authStrategy: new LocalAuth(),
 });

@@ -3,6 +3,7 @@ import { send_affirmation } from "./apis/affirmations";
 import { send_cat } from "./apis/cats";
 import { send_joke } from "./apis/jokes";
 import { alternate_upper_case } from "./mock";
+import { send_news } from "./apis/news";
 
 export async function interact(message: WAWebJS.Message) {
     if (message.body.indexOf("cringe") !== -1) {
@@ -16,5 +17,7 @@ export async function interact(message: WAWebJS.Message) {
         send_affirmation(message);
     } else if (message.body.indexOf("!gato") === 0) {
         send_cat(message);
+    } else if (message.body.indexOf("!news") === 0) {
+        send_news(message);
     }
 }
